@@ -1,0 +1,338 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body{
+    height: 2000px;
+    background-image: url(pic.jpg);
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/023/669/545/small/abstract-gradient-pink-blue-liquid-wave-background-free-vector.jpg);
+}
+.nav_bar{
+    background-color: #333;
+    color: #fff;
+    padding: 10pz 0;
+}
+.logo img{
+    width: 150px;
+    height: auto;
+    margin-left: 20px;
+    border-radius: 80px;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    max-width: 100px;
+    height: auto;
+}
+.user ul{
+    list-style: none;
+    display: flex;
+    margin-left: 200px;
+    font-size: 25px;
+
+}
+.user ul li{
+    margin-right: 40px;
+}
+.user ul li:last-child{
+    margin-right: 0;
+}
+.user ul li:hover{
+    color: rgb(254, 18, 18);
+}
+button{
+    background-color: #1c1d1f;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 25px;
+    margin-left: auto;
+}
+button + button{
+    margin-left: 5px;
+    margin-right: 20px;
+}
+button:hover{
+    background-color: rgb(228, 55, 89);
+}
+ .photo img {
+    width: 70%; 
+    height: auto; 
+    margin-left: 230px; 
+    margin-top: 100px;
+}
+.monali{
+    background-image: url("pic.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    overflow: scroll;
+ }  
+.one{
+    text-align: center;
+    margin-top: 60px;
+   }
+
+.one h1{
+    font-size: 50px;
+}
+.one p{
+    font-size: x-large;
+}
+
+
+   .wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+
+
+ .box{
+   width:350px;
+   height: 350px;
+   margin: 30px;
+   box-sizing: border-box;
+   position: relative;
+   perspective: 1000px;
+   border-radius: 20px;
+   box-shadow: 2px 2px 10px rgb(34, 31, 31);
+ }
+ .rect_box-4{
+   border: 1px solid green;
+   height: 350px;
+   width:700px;
+   margin-left: 400px;
+   position: relative;
+   border-radius: 20px;
+   margin-right: 400px;
+   margin-top: 30px;
+   margin-bottom: 40px;
+   box-shadow: 2px 2px 10px white;
+ }
+ img[alt="image"]{
+   height:350px;
+      width: 100%;
+      border-radius: 20px; 
+  }
+  .TEXT{
+   position: absolute;
+   top: 0;
+   left: 0;
+   color: rgb(16, 11, 11);
+   background: rgba(233, 124, 233, 0.7);
+   width: 100%;
+   height: 290px;
+   text-align: center;
+   padding: 30px 0px;
+   border-radius: 20px;
+   text-decoration: underline;
+   box-shadow: 2px 2px 10px white;
+  }
+
+  .TEXT {
+   transform: rotateY(90deg);
+   transition: all 0.5s ease-in-out;
+ }
+ 
+ .box:hover .TEXT {
+   transform: rotateY(0deg);
+ }
+
+  .box .grid {
+   transform: rotateY(0deg);
+   transition: all 0.5s ease-in-out;
+ }
+ 
+ .box:hover .grid {
+   transform: rotateY(-90deg);
+ }
+button{
+ background-color: #a822dd;
+ border: none;
+ color: rgb(6, 5, 5);
+ padding: 16px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ margin: 4px 2px;
+ transition-duration: 0.4s;
+ cursor: pointer;
+ border-radius: 10px;
+ box-shadow: 2px 2px 10px white;
+}
+button:hover {
+ background-color: #04AA6D;
+ color: white;
+}
+ 
+
+ .rect_box-4 .card-4 {
+   transform: rotateX(0);
+   transition: all 0.5s ease-in-out;
+   border-radius: 20px;
+   box-shadow: 2px 2px 10px white;
+ }
+ 
+ .rect_box-4:hover .card-4 {
+   transform: rotateX(-90deg);
+ }
+ 
+ .rect_box-4 .TEXT-4 {
+   width: 600px;
+   height:280px;
+   position: absolute;
+   top: 0;
+   left: 0;
+   padding: 5% 2%;
+   color: rgb(21, 3, 3);
+   text-align: center;
+   background-color: rgba(255, 93, 255, 0.5);
+   transform: rotateX(90deg);
+   transition: all 0.5s ease-in-out;
+   border-radius: 20px;
+   text-decoration: underline;
+ }
+ 
+ .rect_box-4:hover .TEXT-4 {
+   transform: rotateX(0);
+ }
+
+
+ .count h1{
+  font-size: 50px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+ }
+
+.count{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .min{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 90px;
+    /* width: 350px; */
+    /* height: 250px; */
+  }
+  .min .box{
+      color: #1c1d1f;
+      background-color: #fff;
+  }
+ .text1{
+  text-align: center;
+  font-size: 20px;
+}
+
+.icon{
+  font-size: 40px;
+  margin-left: 10px;
+  margin-top: 30px;
+  color: rgb(110, 110, 231);
+}
+.icon h4{
+  color: black;
+}
+  
+.greenbox {
+  display: flex;
+  align-items: flex-start;
+  padding: 5% 0%;
+  background-image: url(gr.png);
+  background-size: contain;
+  background-attachment: fixed;
+  margin-top: 5%;  
+}
+
+.boyimg {
+  margin-right:0; 
+}
+
+.content_about {
+  background-color: rgba(159, 192, 181, 0.5);
+  width: 100%;
+  height: 500px;
+  display: grid;
+}
+
+.grids{
+ display: flex;
+  flex-direction: row; 
+  flex-wrap: nowrap;
+  margin-left: 50px;
+}
+.grid1{
+
+width:350px;
+height: 250px;
+margin: 20px;
+align-items: center;
+box-sizing: border-box;
+border-radius: 20px;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.icon i {
+  margin-right: 5px;
+}
+
+#page{
+  width: 100%; 
+  height: 50vh; 
+  background-color: azure;
+  background-size: cover; 
+  background-position: center; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+.end {
+  text-align: center;
+}
+.msg{
+   font-size: 20px;
+}
+.rem{
+  box-sizing: 100px;
+  height: 50px;
+}
+.ico {
+  text-align: center;
+}
+.ico i {
+  font-size: 40px; 
+  margin: 0 20px; 
+}
+.tt1{
+  font-size: 20px;
+}
+.msg, .rem, .ico, .tt1 {
+  margin-bottom: 30px; 
+}
+.rem {
+  display: flex; 
+  align-items: center; 
+}
+
+.rem input[type="text"] {
+  flex: 1; 
+  height: 40px; 
+  border-radius: 10px;
+}
+
+.rem button {
+  width: 30px; 
+  height: 40px;
+  border-radius: 30px; 
+}
